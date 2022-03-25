@@ -3,11 +3,11 @@ import { Form, Button } from "react-bootstrap";
 
 function FormComp() {
   return (
-    <div className="mt-1">
+    <div className="mt-2 mb-3">
       <Form>
-        <div className="bg-dark pl-1 pt-1">
-          <h4 className="text-light">Contact Us</h4>
-          <p className="text-light">Please fill this form in a decent manner</p>
+        <div className="border-top pl-1 pt-1">
+          <h4 className="text-dark">Contact Us</h4>
+          <p className="text-dark">Please fill this form in a decent manner</p>
         </div>
 
         <Form.Group className="mb-3" controlId="formBasicFullname">
@@ -38,14 +38,17 @@ function FormComp() {
           <label htmlFor="floatingTextarea2">Comments</label>
         </Form.Group>
 
-        {/* <div class="form-floating">
-          
-        </div> */}
-
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
+          <Form.Check type="checkbox" label="I accept the Terms & Conditions" />
         </Form.Group>
-        <Button variant="primary" type="submit">
+        <Button
+          className="border-bottom"
+          variant="primary"
+          type="submit"
+          onClick={() => {
+            alert("Form submitted");
+          }}
+        >
           Submit
         </Button>
       </Form>

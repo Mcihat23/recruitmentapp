@@ -1,158 +1,114 @@
 import React from "react";
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBInput,
-  MDBCol,
-  MDBRow,
-  MDBBtn,
-} from "mdb-react-ui-kit";
+import { MDBFooter, MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 
 export default function App() {
   return (
     <MDBFooter className="text-center" color="white" bgColor="dark">
       <MDBContainer className="p-4">
-        <section className="">
-          <form action="">
-            <div className="row d-flex justify-content-center">
-              <div className="col-auto">
-                <p className="pt-2">
-                  <strong>Sign up for our newsletter</strong>
-                </p>
-              </div>
-
-              <MDBCol md="5" start="12">
-                <MDBInput
-                  contrast
-                  type="email"
-                  label="Email address"
-                  className="mb-4"
-                />
-              </MDBCol>
-
-              <div className="col-auto">
-                <MDBBtn outline color="light" type="submit" className="mb-4">
-                  Subscribe
-                </MDBBtn>
-              </div>
-            </div>
-          </form>
-        </section>
-
         <section className="mb-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
-            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-            sequi voluptate quas.
-          </p>
+          <p>HR services resources and insights</p>
         </section>
 
         <section className="">
           <MDBRow>
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">What We Offer</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
                   <a href="#!" className="text-white">
-                    Link 1
+                    Talents
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 2
+                    HR Services
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 3
+                    Payroll
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 4
+                    Integrations
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Who We Serve</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
                   <a href="#!" className="text-white">
-                    Link 1
+                    Businesses
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 2
+                    Industry
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
+                    Partners
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Resources</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
                   <a href="#!" className="text-white">
-                    Link 1
+                    Small Business Resources
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 2
+                    Midsized & Enterprise Business Resources
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 3
+                    Tools
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 4
+                    Webinars & Events
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">About Recruiter</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
                   <a href="#!" className="text-white">
-                    Link 1
+                    Worldwide Locations
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 2
+                    Careers
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 3
+                    Corporate Social Responsibility
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 4
+                    Awards and Recognition
                   </a>
                 </li>
               </ul>
@@ -165,9 +121,14 @@ export default function App() {
         className="text-center p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        © 2020 Copyright:
-        <a className="text-white" href="https://mdbootstrap.com/">
-          MDBootstrap.com
+        © 2022 Copyright: Designed and Developed by{" "}
+        <a
+          className="text-white"
+          href="https://github.com/Mcihat23"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Mustafa Cihat Aksoy
         </a>
       </div>
     </MDBFooter>
