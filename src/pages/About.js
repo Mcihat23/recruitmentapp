@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 export default function About() {
   return (
     <div>
-      <Container>
+      <Container className="mt-1 mb-5">
         <h2 className="text-center p-2 mt-3">Who We Are</h2>
         <p
           className="fs-6 lh-base"

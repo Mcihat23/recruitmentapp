@@ -21,7 +21,7 @@ function Candidates(props) {
 
   return (
     <div>
-      <Form className="d-flex">
+      <Form className="d-flex mt-2">
         <FormControl
           type="search"
           placeholder="Search"
@@ -31,7 +31,7 @@ function Candidates(props) {
           value={searchTerm}
         />
       </Form>
-      <Table striped bordered hover size="sm">
+      <Table striped bordered hover size="sm mt-1 mb-5">
         <thead>
           <tr>
             <th>ID</th>

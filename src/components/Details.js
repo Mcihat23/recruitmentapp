@@ -15,13 +15,15 @@ function Details() {
 
   return (
     <div>
-      <Table striped bordered hover size="sm">
+      <Table striped bordered hover size="sm mt-3 mb-5">
         <thead>
           <tr>
             <th>ID</th>
             <th>Fullname</th>
             <th>Email address</th>
             <th>Phone number</th>
+            <th>City</th>
+            <th>Company</th>
           </tr>
         </thead>
         <tbody>
@@ -31,6 +33,8 @@ function Details() {
               <td>{user.name}</td>
               <td>{user.email.toLowerCase()}</td>
               <td>{user.phone}</td>
+              <td>{user.address.city}</td>
+              <td>{user.company.name}</td>
               <td className="text-center">
                 <Button variant="secondary" onClick={() => routeChange()}>
                   Go Back
