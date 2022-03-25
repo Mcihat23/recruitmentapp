@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import thunk from "redux-thunk";
 import { applyMiddleware, createStore } from "redux";
@@ -20,9 +20,9 @@ const myStore = createStore(userReducer, allExtensions);
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={myStore}>
-      <BrowserRouter>
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
   </React.StrictMode>,
   document.getElementById("root")
