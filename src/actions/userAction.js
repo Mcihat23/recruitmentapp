@@ -5,7 +5,7 @@ export function fetchUsers() {
     dispatch({
       type: "FETCH_USERS",
       payload: axios
-        .get(`https://jsonplaceholder.typicode.com/users`)
+        .get(`https://recruitbackend.herokuapp.com/v2/posts`)
         .then((res) => res.data),
     });
   };
